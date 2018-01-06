@@ -10,7 +10,7 @@ describe('App', () => {
     wrapper = shallow(<App />)
   })
 
-  it('should ', () => {
+  it('should exist', () => {
     expect(wrapper).toBeDefined();
   });
 
