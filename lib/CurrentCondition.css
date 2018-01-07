@@ -1,3 +1,7 @@
+h3 {
+  font-family: 'Gruppo', cursive;
+}
+
 .current{
   display: flex;
   /*flex-wrap: wrap;*/
@@ -11,10 +15,6 @@
   font-family: 'Permanent Marker', cursive;
   font-size: 50px;
   color: #37363B;
-}
-
-h3 {
-  font-family: 'Gruppo', cursive;
 }
 
 .current-design {

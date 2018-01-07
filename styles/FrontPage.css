@@ -47,3 +47,25 @@
   font-family: 'Roboto', sans-serif;
   font-size: 19px;
 }
+
+.suggestedCities {
+  border: 1pX solid white;
+  width: 200px;
+
+}
+
+.suggest-container {
+  display: flex;
+  flex-direction: column;
+  color: white;
+  
+}
+
+
+
+
+
+
+
+
+
