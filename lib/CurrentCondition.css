@@ -1,8 +1,26 @@
 .current{
   display: flex;
-  flex-wrap: wrap;
-  flex-direction: column;
+  /*flex-wrap: wrap;*/
+  flex-direction: row;
   border: 1px solid black;
   /*width: 50em;*/
   padding: 2em;
+}
+
+.city-title{
+  font-family: 'Permanent Marker', cursive;
+  font-size: 50px;
+  color: #37363B;
+}
+
+h3 {
+  font-family: 'Gruppo', cursive;
+}
+
+.current-design {
+  margin-left: 10px;
+}
+
+.city-info {
+  width: 55em;
 }

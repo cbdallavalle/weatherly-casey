@@ -8,3 +8,9 @@
   margin: auto;
   display: block;
 }
+
+.backGround {
+  background-color: #F0E3DA;
+  /*background-image: url('../images/avatar2.jpg');*/
+  /*background-repeat: no-repeat;*/
+}
