@@ -1,3 +1,8 @@
+h2 {
+  font-family: 'Gruppo', cursive;
+
+}
+
 .seven-hour{
   display: flex;
   flex-direction: row;
@@ -5,11 +10,6 @@
   width: 30em;
   padding: 5px;
   padding-left: 5em;
-}
-
-h2 {
-  font-family: 'Gruppo', cursive;
-
 }
 
 .weather-image {
