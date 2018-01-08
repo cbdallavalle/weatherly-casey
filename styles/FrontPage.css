@@ -40,6 +40,7 @@
   width: 600px;
   height: 48px;
   border: none;
+  font-size: 25px;
 }
 
 #city-input::placeholder {
@@ -49,9 +50,19 @@
 }
 
 .suggestedCities {
-  border: 1pX solid white;
-  width: 200px;
+  border: 1px solid black;
+  width: 100%;
+  height: 30px;
+  /*margin-top: 1px;*/
+  /*margin-bottom: 1px;*/
+  margin: 0;
+  background-color: grey;
+  opacity: .8;
+}
 
+.suggestedCities:hover {
+  font: white;
+  opacity: 1;
 }
 
 .suggest-container {
