@@ -4,6 +4,7 @@ import App from '../lib/App.js';
 import MockData from '../__mocks__/mockData';
 import localStorageMock from '../__mocks__/localStorage';
 
+
 describe('App', () => {
   let wrapper;
 
