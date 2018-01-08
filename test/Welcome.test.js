@@ -12,14 +12,11 @@ describe('Welcome', () => {
 
   it('should exist', () => {
     expect(wrapper).toBeDefined();
-  });
+  })
 
   it('should render header by default', () => {
     expect(wrapper.find('header').length).toEqual(1);
-  });
-
-  it('should render Search when given a state', () => {
+    expect(wrapper.find('h1').length).toEqual(1);
     expect(wrapper.find('Search').length).toEqual(1);
-  })
-
+  });
 })

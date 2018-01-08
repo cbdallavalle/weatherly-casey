@@ -8,27 +8,27 @@ describe ('CurrentCondition', () => {
 
   beforeEach(() => {
     wrapper = mount (<CurrentCondition currObs = {MockData.current_observation}
-                                      currForecast = {MockData.forecast.simpleforecast.forecastday[0]}
-                                      summary = {MockData.forecast.txt_forecast.forecastday[0].fcttext}
-                                      />)
+                                       currForecast = {MockData.forecast.simpleforecast.forecastday[0]}
+                                       summary = {MockData.forecast.txt_forecast.forecastday[0].fcttext}
+                    />)
   })
 
   it('should exist', () => {
     expect(wrapper).toBeDefined()
-  })
+  });
 
-  it('should have the text we expect', () => {
-    expect(wrapper.find('h1').text()).toEqual('Louisville, KY')
-    // expect(wrapper.find().text()).toEqual('Louisville, KY')
+  it('should start with props', () => {
+    expect(wrapper.instance().props.currObs).toEqual(MockData.current_observation);
+    expect(wrapper.instance().props.currForecast).toEqual(MockData.forecast.simpleforecast.forecastday[0]);
+    expect(wrapper.instance().props.summary).toEqual(MockData.forecast.txt_forecast.forecastday[0].fcttext)
 
-  })
+  });
+
+  it('should render the elements we expect', () => {
+    expect(wrapper.find('h1').text()).toEqual('Louisville, KY');
+    expect(wrapper.find('h1').length).toEqual(1);
+    expect(wrapper.find('h3').length).toEqual(6);
+    expect(wrapper.find('h3').first().text()).toEqual('Wednesday, Dec. 20');
+    expect(wrapper.find('h3').last().text()).toEqual(' Your summary: Sun and clouds mixed. High 51F. Winds NE at 10 to 15 mph.');
+  });
 })
-
-
-
-      // <h1>{props.currObs.display_location.full}</h1>
-      // <h3>{props.currForecast.date.pretty}</h3>
-      // <h3>{props.currForecast.high.fahrenheit}</h3>
-      // <h3>{props.currForecast.low.fahrenheit}</h3>
-      // <h3>{props.summary}</h3>
-      // <h3>{props.currObs.temp_f}</h3>
