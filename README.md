@@ -68,5 +68,5 @@ To Run ESlint
     Weather Underground
   
   Images:
-    James Logue
-    https://wall.alphacoders.com/big.php?i=691847
+    Gif: James Logue
+    Welcome Page Background: https://wall.alphacoders.com/big.php?i=691847
