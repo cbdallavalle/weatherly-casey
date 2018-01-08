@@ -1,13 +1,13 @@
 import React, { Component } from 'react';
 import { mount, shallow } from 'enzyme';
-import FrontPage from '../lib/FrontPage.js';
+import Welcome from '../lib/Welcome.js';
 import MockData from '../__mocks__/mockData';
 
-describe('FrontPage', () => {
+describe('Welcome', () => {
   let wrapper;
 
   beforeEach(() => {
-    wrapper = shallow(<FrontPage />)
+    wrapper = shallow(<Welcome />)
   })
 
   it('should exist', () => {
@@ -18,5 +18,8 @@ describe('FrontPage', () => {
     expect(wrapper.find('header').length).toEqual(1);
   });
 
+  it('should render Search when given a state', () => {
+    expect(wrapper.find('Search').length).toEqual(1);
+  })
 
 })
