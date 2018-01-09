@@ -25,8 +25,8 @@ describe('Card', () => {
     expect(wrapper.find('h2').length).toEqual(1);
     expect(wrapper.find('img').length).toEqual(1);
     expect(wrapper.find('h3').length).toEqual(1);
-    expect(wrapper.find('h2').text()).toEqual(' Time: 12:00 PM ');
-    expect(wrapper.find('h3').text()).toEqual(' Projected Temp: 47° ');
+    expect(wrapper.find('h2').text()).toEqual(' 12:00 PM ');
+    expect(wrapper.find('h3').text()).toEqual(' 47° ');
   })
 
   it('should start with props', () => {
@@ -46,6 +46,6 @@ describe('Card', () => {
     expect(wrapper.find('img').length).toEqual(1);
     expect(wrapper.find('h2').length).toEqual(3);
     expect(wrapper.find('h2').first().text()).toEqual(' Wednesday ');
-    expect(wrapper.find('h2').last().text()).toEqual(' Projected Low: 32°');
+    expect(wrapper.find('h2').last().text()).toEqual(' Low: 32°');
   })
 })
