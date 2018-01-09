@@ -60,3 +60,9 @@ h2 {
   right: 13px;
   z-index: 10;
 }
+
+@media only screen and (max-width: 320px) {
+  .attach-scroll{
+    width: 75%;
+  }
+}
