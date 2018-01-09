@@ -3,16 +3,60 @@ h2 {
 
 }
 
-.seven-hour{
+.attach-scroll {
   display: flex;
   flex-direction: row;
-  border: 1px solid #CAACA4;
-  width: 30em;
-  padding: 5px;
-  padding-left: 5em;
+  height: 400px;
+  justify-content: center;
+  align-content: baseline;
+  align-items: center;
+  padding: 0 25px;
+}
+
+.hourly-card-cont {
+  overflow-x: scroll;
+  overflow-y: hidden;
+  white-space: nowrap;
+  box-sizing: border-box;
+  border-radius: 41px;
+  margin: 0 -25px;
+}
+
+.seven-hour {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  padding: 19px;
+  box-sizing: border-box;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+}
+
+.seven-hour-cont {
+  width: 157px;;
+  display: inline-block;
+  background-color: #f1d97f7a;
 }
 
 .weather-image {
-  margin-left: 15px;
-  margin-right: 15px;
+  width: 60px;
+  margin: auto;
+}
+
+.scroll-1 {
+  width: 50px;
+  display: inline;
+  top: 457px;
+  left: 13px;
+  z-index: 10;
+  margin: 0;
+}
+
+.scroll-2 {
+  width: 50px;
+  display: inline;
+  top: 457px;
+  right: 13px;
+  z-index: 10;
 }

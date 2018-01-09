@@ -3,12 +3,10 @@ h3 {
 }
 
 .current{
+  width: 544px;
+  width: 100%;
   display: flex;
-  /*flex-wrap: wrap;*/
-  flex-direction: row;
-/*  border: 1px solid black;*/
-  /*width: 50em;*/
-  padding: 2em;
+  justify-content: space-evenly;
 }
 
 .city-title{
@@ -17,10 +15,9 @@ h3 {
   color: #37363B;
 }
 
-.current-design {
-  margin-left: 10px;
-}
-
 .city-info {
-  width: 55em;
+  width: 100%;
+  max-width: 500px;
+  margin-left: 130px;
+  margin-right: -70px;
 }

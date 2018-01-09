@@ -1,26 +1,32 @@
 .day-container {
   display: flex;
-  /*flex-direction: row;*/
+  justify-content: center;
   flex-wrap: wrap; 
+  padding-bottom: 70px;
 }
 
 .ten-day {
   display: flex;
-  flex-direction: column;
-  border: 1px solid #DB634B;
-  margin-bottom: 5px;
-  margin-right: 5px;
-  margin-left: 5px;
-  margin-top: 25px;
+  flex-direction: row;
   border-width: medium;
-  width: 200px;
+  width: 100%;
   padding: 10px;
-  box-shadow: 2px 5px;
+  box-shadow: 2px 3px #9c979785;
+  justify-content: center;
+  max-width: 800px;
+  background-color: #DB634B;
+  border-radius: 15px;
+  margin: 10px;
+  box-sizing: border-box;
 }
 
 .ten-day-img {
-  width: 5em;
-  height: 5em;
-  margin: auto;
+  width: 60px;
+  height: 60px;
+  margin: 0 30px;
 }
 
+.tenday-card {
+  width: 90%;
+  max-width: 800px;
+}

@@ -1,3 +1,8 @@
+.aang-bending {
+  width: 600px;
+  height: 410px;
+}
+
 .error {
   position: absolute;
   top: 193px;
@@ -19,8 +24,6 @@
 
 .backGround {
   background-color: #F0E3DA;
-  /*background-image: url('../images/avatar2.jpg');*/
-  /*background-repeat: no-repeat;*/
 }
 
 .change-city {
@@ -37,4 +40,13 @@
   border: none;
   background-color: #DB634B;
   color: white;
+}
+
+.search-container {
+  width: 100%;
+  height: 70px;
+  border: 2px solid grey;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
