@@ -1,0 +1,9 @@
+@media only screen and (max-width: 320px) {
+  .change-search {
+    width: 100%;
+  }
+
+  .submit {
+    /*margin-left: 5px;*/
+  }
+}

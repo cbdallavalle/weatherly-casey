@@ -75,6 +75,25 @@
   border: none;
 }
 
+@media only screen and (max-width: 320px) {
+  .Front-page {
+    width: 145vw;
+    height: 145vh;
+    background-size: cover;
+    background-position: center;
+  }
+
+  #city-input {
+    width: 300px;
+    margin-left: 31px;
+  }
+
+  .submit-city-form {
+    border: none;
+  }
+
+
+}
 
 
 
