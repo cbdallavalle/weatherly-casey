@@ -6,7 +6,7 @@ h3 {
   width: 544px;
   width: 100%;
   display: flex;
-  justify-content: space-evenly;
+  justify-content: flex-start;
 }
 
 .city-title{

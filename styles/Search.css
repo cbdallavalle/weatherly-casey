@@ -1,3 +1,8 @@
+.change-search {
+  border: 2px solid #37363B;
+  /*display: flex;*/
+}
+
 @media only screen and (max-width: 320px) {
   .change-search {
     width: 100%;

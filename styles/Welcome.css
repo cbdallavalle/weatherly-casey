@@ -11,7 +11,7 @@
 
 .submit {
   width: 100px;
-  height: 50px;
+  height: 52px;
   border: none;
   font-family: 'Roboto', sans-serif;
   font-size: 20px;
@@ -24,7 +24,7 @@
   border: 2px solid #37363B;
   display: flex;
   justify-content: center;
-  width: 702px;
+  width: 704px;
   margin: 0 auto;
 }
 
@@ -38,7 +38,7 @@
 
 #city-input {
   width: 600px;
-  height: 48px;
+  height: 49.5px;
   border: none;
   font-size: 25px;
 }
@@ -77,8 +77,8 @@
 
 @media only screen and (max-width: 320px) {
   .Front-page {
-    width: 145vw;
-    height: 145vh;
+    width: 150vw;
+    height: 150vh;
     background-size: cover;
     background-position: center;
   }
