@@ -28,7 +28,7 @@ describe ('CurrentCondition', () => {
     expect(wrapper.find('h1').text()).toEqual('Louisville, KY');
     expect(wrapper.find('h1').length).toEqual(1);
     expect(wrapper.find('h3').length).toEqual(6);
-    expect(wrapper.find('h3').first().text()).toEqual('Wednesday, Dec. 20');
-    expect(wrapper.find('h3').last().text()).toEqual(' Your summary: Sun and clouds mixed. High 51F. Winds NE at 10 to 15 mph.');
+    expect(wrapper.find('h3').first().text()).toEqual('Wednesday, Dec.20');
+    expect(wrapper.find('h3').last().text()).toEqual('Sun and clouds mixed. High 51F. Winds NE at 10 to 15 mph.');
   });
 })

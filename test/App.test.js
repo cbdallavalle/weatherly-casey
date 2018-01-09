@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import { mount, shallow } from 'enzyme';
 import App from '../lib/App.js';
 import MockData from '../__mocks__/mockData';
-import localStorageMock from '../__mocks__/localStorage';
+import LocalStorageMock from '../__mocks__/localStorage';
 
 
 describe('App', () => {
@@ -10,7 +10,7 @@ describe('App', () => {
 
   beforeEach(() => {
     wrapper = shallow(<App />)
-    window.localStorage = localStorageMock;
+    window.localStorage = new LocalStorageMock;
   })
 
   it('should exist', () => {
@@ -40,7 +40,8 @@ describe('App', () => {
   })
 
   it('should check values in localStorage', () => {
-    console.log(window.localStorage)
+    wrapper.instance().setLocalStorage('Louisville, KY');
+    expect(window.localStorage.store.location).toEqual('Louisville, KY')
   })
 
 })
