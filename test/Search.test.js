@@ -6,9 +6,10 @@ import localStorageMock from '../__mocks__/localStorage';
 
 describe('Search', () => {
   let wrapper;
+  let loactionApiCall;
 
   beforeEach(() => {
-    wrapper = shallow(<Search />)
+    wrapper = shallow(<Search getWeatherApi = {(location) => loactionApiCall = 'api call from: ' + location }/>)
     window.localStorage = localStorageMock;
   })
 
@@ -27,4 +28,28 @@ describe('Search', () => {
     expect(wrapper.find('p').length).toEqual(1);
     expect(wrapper.find('p').text()).toEqual(' Denver, Co ');
   });
+
+  it('should change the state inputCity on change of input', () => {
+    wrapper.find('input').simulate('change', {target: {value: 'de'}});
+    expect(wrapper.state().inputCity).toEqual('de');
+  })
+
+  it('should input the value p tag of the suggested cities array on click', () => {
+    wrapper.find('input').simulate('change', {target: {value: 'den'}});
+    expect(wrapper.find('p').length).toEqual(2);
+    expect(wrapper.find('p').first().text()).toEqual(' denver, co')
+    wrapper.find('p').first().simulate('click');
+    expect(wrapper.state().inputCity).toEqual('denver, co');
+  })
+
+  it('should have a suggestedCities array when the inputCity has a string fragment', () => {
+    wrapper.find('input').simulate('change', {target: {value: 'den'}});
+    expect(wrapper.state().suggestedCities.length).toEqual(2);
+  })
+
+  it('should return a string of the location when the submit button is clicked', () => {
+    wrapper.find('input').simulate('change', {target: {value: 'denver, co'}});
+    wrapper.find('button').simulate('click');
+    expect(loactionApiCall).toEqual('api call from: denver, co');
+  })
 })
