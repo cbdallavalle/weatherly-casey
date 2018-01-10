@@ -1,14 +1,11 @@
 .change-search {
   border: 2px solid #37363B;
-  /*display: flex;*/
+  display: flex;
+  justify-content: center;
 }
 
 @media only screen and (max-width: 320px) {
   .change-search {
     width: 100%;
-  }
-
-  .submit {
-    /*margin-left: 5px;*/
   }
 }

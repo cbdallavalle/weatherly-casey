@@ -1,8 +1,8 @@
 .error {
   position: absolute;
-  top: 193px;
-  right: 235px;
-  color: black;
+  top: 42%;
+  right: 25%;
+  color: white;
   font-family: 'Roboto', sans-serif;
 }
 
@@ -18,6 +18,7 @@
 }
 
 .backGround {
+  background-color: #FEFEF7;
   background-image: url('../images/background1.jpg');
     background-repeat-x: no-repeat;
     background-repeat-y: repeat;
