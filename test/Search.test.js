@@ -23,10 +23,9 @@ describe('Search', () => {
     expect(wrapper.find('button').length).toEqual(1);
   });
 
-  it('should render a p tag when there is a suggested city', () => {
+  it('should render an option tag when there is a suggested city', () => {
     wrapper.setState({ inputCity: null, suggestedCities: [' Denver, Co ']});
-    expect(wrapper.find('p').length).toEqual(1);
-    expect(wrapper.find('p').text()).toEqual(' Denver, Co ');
+    expect(wrapper.find('option').length).toEqual(1);
   });
 
   it('should change the state inputCity on change of input', () => {
@@ -36,9 +35,8 @@ describe('Search', () => {
 
   it('should input the value p tag of the suggested cities array on click', () => {
     wrapper.find('input').simulate('change', {target: {value: 'den'}});
-    expect(wrapper.find('p').length).toEqual(2);
-    expect(wrapper.find('p').first().text()).toEqual(' denver, co')
-    wrapper.find('p').first().simulate('click');
+    expect(wrapper.find('option').length).toEqual(2);
+    wrapper.find('option').first().simulate('click');
     expect(wrapper.state().inputCity).toEqual('denver, co');
   })
 
