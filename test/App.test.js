@@ -43,5 +43,4 @@ describe('App', () => {
     wrapper.instance().setLocalStorage('Louisville, KY');
     expect(window.localStorage.store.location).toEqual('Louisville, KY')
   })
-
 })

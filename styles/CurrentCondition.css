@@ -18,8 +18,8 @@ h3 {
 .city-info {
   width: 100%;
   max-width: 500px;
-  margin-left: 130px;
-  margin-right: -70px;
+  margin: auto;
+  padding-right: 192px;
 }
 
 @media only screen and (max-width: 320px) {
