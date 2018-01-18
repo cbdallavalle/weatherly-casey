@@ -84,4 +84,5 @@ Desktop
 
 <img width="1088" alt="screen shot 2018-01-17 at 10 10 30 pm" src="https://user-images.githubusercontent.com/28467245/35081784-5dff23da-fbd3-11e7-8584-bd6cdba97bda.png">
 
-<img width="1088" alt="screen shot 2018-01-17 at 10 10 49 pm" src="https://user-images.githubusercontent.com/28467245/35081788-61e07e72-fbd3-11e7-8fca-
+<img width="1088" alt="screen shot 2018-01-17 at 10 10 49 pm" src="https://user-images.githubusercontent.com/28467245/35081788-61e07e72-fbd3-11e7-8fca-5cddd1f9097c.png">
+
