@@ -1,6 +1,6 @@
 ## Synopsis
 
-Weatherly is the culmination of a ten day project for Turing School of Software and Design. The project guidelines required us to use React as the framework and make API calls to the Weather Underground for data. Further detail are [here](http://frontend.turing.io/projects/weathrly.html). Upon entering the website, it prompts the user to input a city and state or a zipcode. When the submit button is pressed, another page pops up showing the current conditions, the weather prediction for the next seven hours and the next ten days. The theme of our website is Avatar the Last Airbender because we both absolutely love the show. Instructions to install the React Starter Kit and node autocomplete package are located in the installation section.
+Weatherly is the culmination of a ten day project for Turing School of Software and Design. The project guidelines required us to use React as the framework and make API calls to the Weather Underground for data. Further detail are [here](http://frontend.turing.io/projects/weathrly.html). Upon entering the website, it prompts the user to input a city and state or a zipcode. When the submit button is pressed, another page pops up showing the current conditions, the weather prediction for the next seven hours and the next ten days. Instructions to install the React Starter Kit and node autocomplete package are located in the installation section.
 
 ## Code Example
 
@@ -45,6 +45,8 @@ npm test
 The [Weather Underground Website](https://www.wunderground.com/weather/api/) provided free access to the api.
 
 ## Tests
+
+Note: tests are a work in progress since they are formatted for the project before I forked it.
 
 Tests use Jest and Enzyme. The React Stater Kit is already installed with Jest, Enzyme, Babel and ESlint.
 
