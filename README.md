@@ -68,7 +68,20 @@ To Run ESlint
     
   API:
     Weather Underground
-  
-  Images:
-    Gif: James Logue
-    Welcome Page Background: https://wall.alphacoders.com/big.php?i=691847
+    
+## ScreenShots
+  Mobile
+<img width="338" alt="screen shot 2018-01-17 at 10 06 10 pm" src="https://user-images.githubusercontent.com/28467245/35081678-b80648fa-fbd2-11e7-8558-20d19be25769.png">
+
+<img width="339" alt="screen shot 2018-01-17 at 10 04 21 pm" src="https://user-images.githubusercontent.com/28467245/35081664-9a8c067a-fbd2-11e7-8fb2-fb80d545b3a0.png">
+
+<img width="353" alt="screen shot 2018-01-17 at 10 06 24 pm" src="https://user-images.githubusercontent.com/28467245/35081683-c0e97d34-fbd2-11e7-81a5-c7ba17ebc5cb.png">
+
+Desktop
+<img width="1089" alt="screen shot 2018-01-17 at 10 10 00 pm" src="https://user-images.githubusercontent.com/28467245/35081778-53e760b0-fbd3-11e7-9874-04c2b896e584.png">
+
+<img width="1083" alt="screen shot 2018-01-17 at 10 10 20 pm" src="https://user-images.githubusercontent.com/28467245/35081781-56fd6de4-fbd3-11e7-9bef-5028c5077b6c.png">
+
+<img width="1088" alt="screen shot 2018-01-17 at 10 10 30 pm" src="https://user-images.githubusercontent.com/28467245/35081784-5dff23da-fbd3-11e7-8584-bd6cdba97bda.png">
+
+<img width="1088" alt="screen shot 2018-01-17 at 10 10 49 pm" src="https://user-images.githubusercontent.com/28467245/35081788-61e07e72-fbd3-11e7-8fca-
