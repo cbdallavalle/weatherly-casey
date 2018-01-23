@@ -1,6 +1,6 @@
 ## Synopsis
 
-Weatherly is the culmination of a ten day project for Turing School of Software and Design. The project guidelines required us to use React as the framework and make API calls to the Weather Underground for data. Further detail are [here](http://frontend.turing.io/projects/weathrly.html). Upon entering the website, it prompts the user to input a city and state or a zipcode. When the submit button is pressed, another page pops up showing the current conditions, the weather prediction for the next seven hours and the next ten days. Instructions to install the React Starter Kit and node autocomplete package are located in the installation section.
+Weatherly is the culmination of a ten day project for Turing School of Software and Design. The project guidelines required us to use React as the framework and make API calls to the Weather Underground for data. Further detail are [here](http://frontend.turing.io/projects/weathrly.html). Upon entering the website, it prompts the user to input a city and state or a zipcode. When the submit button is pressed, another page pops up showing the current conditions, the weather prediction for the next seven hours and the next ten days. Instructions to install the React Starter Kit and node autocomplete package are located in the installation section. The webpage is live at: http://casey-dallavalle-weatherly.surge.sh/
 
 ## Code Example
 
